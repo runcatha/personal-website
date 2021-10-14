@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <>
       <div className='projects-color'>
-      <h2>Projects</h2>
+      <h2 id='projects-title'>Projects</h2>
       <div className='projects-outer-div'>
       <div className='projects-div'>
       <a className="link" href="https://all-i-want-for-christmas.netlify.app/">
@@ -38,12 +38,12 @@ export default function Projects() {
       </Card>
         </a>
         <a className="link" href="https://wod-app.netlify.app/">
-      <Card className="card-container" style={{height: "33rem" }}>
+      <Card className="card-container" style={{height: "35rem" }}>
         <Card.Img
           className="card-img"
           variant="top"
           src='https://i.imgur.com/JElB5BB.png'
-          style={{ height: "16rem" }}
+          style={{ height: "18rem" }}
         />
         <Card.Body style={{ height: "7rem" }}>
           <Card.Title className="card-name">WOD React</Card.Title>
