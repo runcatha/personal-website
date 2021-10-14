@@ -1,12 +1,14 @@
 import './Projects.css'
 import { Card } from 'react-bootstrap'
+import { width } from 'dom-helpers'
 
 export default function Projects() {
   return (
     <>
+      <div className='projects-outer-div'>
       <div className='projects'>
       <a className="link" href="https://all-i-want-for-christmas.netlify.app/">
-      <Card className="card-container" style={{ height: "17rem" }}>
+            <Card className="card-container" style={{height: "17rem" }, {width: "17rem"}}>
         <Card.Img
           className="card-img"
           variant="top"
@@ -20,7 +22,7 @@ export default function Projects() {
       </Card>
         </a>
         <a className="link" href="https://tech-care.netlify.app/">
-      <Card className="card-container" style={{ height: "17rem" }}>
+      <Card className="card-container" style={{height: "17rem" }, {width: "17rem"}}>
         <Card.Img
           className="card-img"
           variant="top"
@@ -34,7 +36,7 @@ export default function Projects() {
       </Card>
         </a>
         <a className="link" href="https://wod-app.netlify.app/">
-      <Card className="card-container" style={{ height: "17rem" }}>
+      <Card className="card-container" style={{height: "17rem" }, {width: "17rem"}}>
         <Card.Img
           className="card-img"
           variant="top"
@@ -48,7 +50,7 @@ export default function Projects() {
       </Card>
         </a>
         <a className="link" href="https://runcatha.github.io/Book_Search-project/">
-      <Card className="card-container" style={{ height: "17rem" }}>
+      <Card className="card-container" style={{height: "17rem" }, {width: "17rem"}}>
         <Card.Img
           className="card-img"
           variant="top"
@@ -61,7 +63,8 @@ export default function Projects() {
         </Card.Body>
       </Card>
       </a>
-      </div>
+        </div>
+        </div>
     </>
   )
 }
