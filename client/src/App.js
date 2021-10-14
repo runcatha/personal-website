@@ -2,7 +2,7 @@ import { Route } from 'react-router';
 import './App.css';
 import Footer from './screens/Footer/Footer'
 import Home from './screens/Home/Home'
-import Nav from './screens/Nav/Nav'
+import Nav from './components/Nav/Nav'
 
 function App() {
   return (

@@ -2,7 +2,7 @@ import './Nav.css'
 import { NavLink } from 'react-router-dom'
 // import { useEffect, useState } from 'react';
 import React from 'react';
-// import Sidebar from '../Sidebar/Sidebar'
+import Sidebar from '../Sidebar/Sidebar'
 // import { propTypes } from 'react-bootstrap/esm/Image';
 
 const Nav = (props) => {

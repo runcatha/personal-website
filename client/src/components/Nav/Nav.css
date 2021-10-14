@@ -6,9 +6,9 @@ nav {
 }
 
 .nav {
-  grid-area: N;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   background-color: #ecf8f8;
 }
@@ -34,11 +34,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 10%;
-}
-.link-welcome-nav {
-  font-family: "Italianno", cursive;
-  font-size: 3vh;
 }
 
 @media all and (max-width: 700px) {
