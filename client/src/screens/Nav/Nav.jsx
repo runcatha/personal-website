@@ -10,7 +10,7 @@ const Nav = (props) => {
   const alwaysOptions = (
     <>
       <NavLink className="link" to="/projects">Projects</NavLink>
-      <a className="link" href="https://docs.google.com/spreadsheets/d/1C_PovgopgtDsIkt_3wI9WMQnGiQvKNou3C_vYcb6xiM/edit?usp=sharing">Resume</a>
+      <a className="link" href="https://drive.google.com/file/d/1MHDD_8j3FSJeQWfyxnmNnz-pJ9SmmAN8/view?usp=sharing">Resume</a>
       <NavLink className="link" to="/about-me">About Me</NavLink>
       <NavLink className="link" to="/contact">Contact</NavLink>
     </>

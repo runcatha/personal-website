@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <>
       <AboutMe />
-      <h3>this is my home</h3>
       <Projects />
       <Contact />
     </>
