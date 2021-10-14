@@ -8,14 +8,14 @@ export default function Projects() {
       <div className='projects-color'>
       <h2>Projects</h2>
       <div className='projects-outer-div'>
-      <div className='projects'>
+      <div className='projects-div'>
       <a className="link" href="https://all-i-want-for-christmas.netlify.app/">
-            <Card className="card-container" style={{height: "17rem" }, {width: "17rem"}}>
+            <Card className="card-container" style={{height: "32rem" }}>
         <Card.Img
           className="card-img"
           variant="top"
           src='https://i.imgur.com/ZYtHBLw.png'
-          style={{ height: "9rem" }}
+          style={{ height: "16rem" }}
         />
         <Card.Body style={{ height: "7rem" }}>
           <Card.Title className="card-name">All I Want for Christmas</Card.Title>
@@ -24,12 +24,12 @@ export default function Projects() {
       </Card>
         </a>
         <a className="link" href="https://tech-care.netlify.app/">
-      <Card className="card-container" style={{height: "17rem" }, {width: "17rem"}}>
+      <Card className="card-container" style={{height: "30rem" }}>
         <Card.Img
           className="card-img"
           variant="top"
           src='https://i.imgur.com/6jFwN0p.png'
-          style={{ height: "9rem" }}
+          style={{ height: "16rem" }}
         />
         <Card.Body style={{ height: "7rem" }}>
           <Card.Title className="card-name">Tech Care</Card.Title>
@@ -38,12 +38,12 @@ export default function Projects() {
       </Card>
         </a>
         <a className="link" href="https://wod-app.netlify.app/">
-      <Card className="card-container" style={{height: "17rem" }, {width: "17rem"}}>
+      <Card className="card-container" style={{height: "33rem" }}>
         <Card.Img
           className="card-img"
           variant="top"
           src='https://i.imgur.com/JElB5BB.png'
-          style={{ height: "9rem" }}
+          style={{ height: "16rem" }}
         />
         <Card.Body style={{ height: "7rem" }}>
           <Card.Title className="card-name">WOD React</Card.Title>
@@ -52,12 +52,12 @@ export default function Projects() {
       </Card>
         </a>
         <a className="link" href="https://runcatha.github.io/Book_Search-project/">
-      <Card className="card-container" style={{height: "17rem" }, {width: "17rem"}}>
+      <Card className="card-container" style={{height: "30rem" }}>
         <Card.Img
           className="card-img"
           variant="top"
           src='https://i.imgur.com/cvp1BTQ.png'
-          style={{ height: "9rem" }}
+          style={{ height: "16rem" }}
         />
         <Card.Body style={{ height: "7rem" }}>
           <Card.Title className="card-name">Book Search</Card.Title>

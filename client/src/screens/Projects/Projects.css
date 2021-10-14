@@ -1,5 +1,6 @@
 .projects-color {
   background-color: #e6beae;
+  height: 100%;
 }
 .projects-div {
   border: 2px solid #d3d3d3;
@@ -42,15 +43,6 @@
 
 .div.card-container.card {
   height: 17rem;
-}
-
-.add-button {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-bottom: 20px;
-  letter-spacing: 2px;
 }
 
 @media only screen and (max-width: 769px) {
