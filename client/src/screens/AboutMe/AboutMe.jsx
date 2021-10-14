@@ -3,10 +3,15 @@ import './AboutMe.css'
 export default function AboutMe() {
   return (
     <>
+      <div className='aboutme-color'>
+      <div className='about-me'>
       <div className='profile-picture'>
           <img src='https://i.imgur.com/bUUmS81.jpg?1'
-          alt='profile-picture' />
+          alt='profile-picture'
+          id='profile-picture'
+        />
       </div>
+      <div className='am-text'>
       <h2>About Me</h2>
         <p>
           I am a Full-stack Web Developer who gained a passion for problem solving and working in teams/with clients from my time in veterinary care and Air Force ROTC.
@@ -15,6 +20,9 @@ export default function AboutMe() {
           <br />
           I love using the skills I’ve learned to solve problems and contribute to a team.
       </p>
+      </div>
+        </div>
+        </div>
     </>
   )
 }

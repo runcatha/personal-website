@@ -5,6 +5,8 @@ import { width } from 'dom-helpers'
 export default function Projects() {
   return (
     <>
+      <div className='projects-color'>
+      <h2>Projects</h2>
       <div className='projects-outer-div'>
       <div className='projects'>
       <a className="link" href="https://all-i-want-for-christmas.netlify.app/">
@@ -63,6 +65,7 @@ export default function Projects() {
         </Card.Body>
       </Card>
       </a>
+        </div>
         </div>
         </div>
     </>
