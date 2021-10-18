@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <AboutMe />
       <Projects />
-      {/* <Contact /> */}
+      <Contact />
     </>
   )
 }
