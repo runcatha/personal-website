@@ -40,13 +40,13 @@ const Contact = () => {
       <div className='form-div'>
       <div className='form-input'>
     <form className='form' ref={form} onSubmit={sendEmail}>
-      <input type="text" name="from_name" placeholder='Name:' className='input'/>
+      <input type="text" name="from_name" placeholder='Name:' className='input' id='input-name' />
      <br />
-      <input type="email" name="from_email" placeholder='Email:' className='input'/>
+      <input type="email" name="from_email" placeholder='Email:' className='input' id='input-email' />
      <br />
           <textarea name="message" placeholder='Message:' className='input'/>
           <br />
-      <input type="submit" value="Send" className='sendbtn'  />
+      <input type="submit" value="Send" className='sendbtn' id='submit-btn' />
       </form>
         </div>
         </div>
