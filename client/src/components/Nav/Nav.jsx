@@ -9,10 +9,10 @@ const Nav = (props) => {
 
   const alwaysOptions = (
     <>
-      <NavLink className="link" to="/projects">Projects</NavLink>
+      <a className="link" href="#projects">Projects</a>
       <a className="link" href="https://drive.google.com/file/d/1MHDD_8j3FSJeQWfyxnmNnz-pJ9SmmAN8/view?usp=sharing">Resume</a>
-      <NavLink className="link" to="/about-me">About Me</NavLink>
-      <NavLink className="link" to="/contact">Contact</NavLink>
+      <a className="link" href="#about">About Me</a>
+      <a className="link" href="#contact">Contact</a>
     </>
   )
 
@@ -30,7 +30,7 @@ const Nav = (props) => {
           </div>
         </div>
       </div>
-      {/* <Sidebar props={props} pageWrapId={"page-wrap"} outerContainerId={"App"}/> */}
+      <Sidebar props={props} pageWrapId={"page-wrap"} outerContainerId={"App"}/>
     </nav >
   )
 }

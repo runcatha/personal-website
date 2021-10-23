@@ -1,12 +1,12 @@
 import './Projects.css'
 import { Card } from 'react-bootstrap'
-import { width } from 'dom-helpers'
+// import { width } from 'dom-helpers'
 
 export default function Projects() {
   return (
     <>
       <div className='projects-color'>
-      <h2 id='projects-title'>Projects</h2>
+      <h2  id='projects' className='projects-title'>Projects</h2>
       <div className='projects-outer-div'>
       <div className='projects-div'>
       <a className="link" href="https://all-i-want-for-christmas.netlify.app/">

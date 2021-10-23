@@ -3,7 +3,7 @@ import { init } from 'emailjs-com';
 import "./Contact.css";
 import React, { useRef } from "react";
 import { useHistory } from "react-router-dom";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div className="contact-color">
       
-      <div className='some-text'>Send me an email!</div>
+      <h2 className='some-text' id='contact'>Send me an email!</h2>
 
       <div className='form-div'>
       <div className='form-input'>

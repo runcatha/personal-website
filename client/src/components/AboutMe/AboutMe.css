@@ -1,0 +1,24 @@
+.profile-picture-conatiner {
+  background-color: #eee4e1;
+}
+#profile {
+  border-radius: 50%;
+  padding-top: 13%;
+}
+.aboutme-color {
+  background-color: #eee4e1;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  padding-top: 3%;
+  /* margin-top: 2%; */
+}
+p {
+  padding: 0 5% 10% 5%;
+  margin-bottom: -20px;
+}

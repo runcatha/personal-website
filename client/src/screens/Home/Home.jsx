@@ -1,7 +1,7 @@
 import './Home.css'
-import AboutMe from '../AboutMe/AboutMe'
-import Contact from '../Contact/Contact'
-import Projects from '../Projects/Projects'
+import AboutMe from '../../components/AboutMe/AboutMe'
+import Contact from '../../components/Contact/Contact'
+import Projects from '../../components/Projects/Projects'
 
 export default function Home() {
   return (

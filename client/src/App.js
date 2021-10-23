@@ -2,7 +2,7 @@ import { Route } from 'react-router';
 import emailjs from 'emailjs-com'
 import { init } from 'emailjs-com'
 import './App.css';
-import Footer from './screens/Footer/Footer'
+import Footer from './components/Footer/Footer'
 import Home from './screens/Home/Home'
 import Nav from './components/Nav/Nav'
 
