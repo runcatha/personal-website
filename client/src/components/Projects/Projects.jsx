@@ -26,7 +26,7 @@ export default function Projects() {
         href='https://github.com/runcatha/All-I-Want_For_Christmas'>
         <img
           id='christmas-github'
-          src='https://i.imgur.com/RshgsOc.png'
+          src='https://i.imgur.com/RshgsOc.png?1'
           alt='Github'/>
             </a>
             </div>
@@ -50,7 +50,7 @@ export default function Projects() {
             href='https://github.com/runcatha/Tech-Care-app'>
         <img
           id='tech-care-github'
-          src='https://i.imgur.com/RshgsOc.png'
+          src='https://i.imgur.com/RshgsOc.png?1'
           alt='Github'/>
             </a>
             </div>
@@ -73,7 +73,7 @@ export default function Projects() {
         href='https://github.com/runcatha/wod_react-project'>
         <img
           id='wod-app-github'
-          src='https://i.imgur.com/RshgsOc.png'
+          src='https://i.imgur.com/RshgsOc.png?1'
           alt='Github'/>
             </a>
             </div>
@@ -96,7 +96,7 @@ export default function Projects() {
         href='https://github.com/runcatha/Book_Search-project'>
         <img
           id='wod-app-github'
-          src='https://i.imgur.com/RshgsOc.png'
+          src='https://i.imgur.com/RshgsOc.png?1'
           alt='Github'/>
             </a>
             </div>
