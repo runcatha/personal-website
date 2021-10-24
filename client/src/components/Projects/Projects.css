@@ -32,3 +32,47 @@ img {
 .card-description {
   margin-bottom: 1%;
 }
+.two-projects-pt-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.two-projects-pt-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 780px) {
+  .projects-lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project {
+    width: 50%;
+  }
+  .two-projects-pt-one {
+    display: flex;
+    flex-direction: row;
+  }
+  .two-projects-pt-two {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .projects-color {
+    margin-top: -8%;
+  }
+  .two-projects-pt-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .two-projects-pt-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

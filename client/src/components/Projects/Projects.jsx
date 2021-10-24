@@ -6,7 +6,8 @@ export default function Projects() {
   return (
       <div className='projects-color'>
         <h2 id='projects' className='projects-title'>Projects</h2>
-          <div className='projects-lists'>
+      <div className='projects-lists'>
+        <div className='two-projects-pt-one'>
             <div className='project' id='all-i-want-for-christmas'>
               <img
                   className="card-img"
@@ -14,22 +15,22 @@ export default function Projects() {
               />
               <Card.Title className="card-name">All I Want for Christmas</Card.Title>
               <Card.Text className="card-description">An app that allows users to build out their own wishlist with items that they can view, add, edit, and delete gifts they would like to receive. Users are then able to join groups and view other member's wishlists to see what they would like. This app was coded using Ruby on Rails, SQL, React, Javascript, and Heroku
-          </Card.Text>
-          <div className='resource-links'>
-          <a className="link" href="https://all-i-want-for-christmas.netlify.app/">
-          <img
-          id='christmas-netlify'
-          src='https://i.imgur.com/fZXYJs5.png'
-          alt='netlify'/>
-          </a>
-          <a className="link"
-        href='https://github.com/runcatha/All-I-Want_For_Christmas'>
-        <img
-          id='christmas-github'
-          src='https://i.imgur.com/RshgsOc.png?1'
-          alt='Github'/>
-            </a>
-            </div>
+              </Card.Text>
+              <div className='resource-links'>
+              <a className="link" href="https://all-i-want-for-christmas.netlify.app/">
+              <img
+              id='christmas-netlify'
+              src='https://i.imgur.com/fZXYJs5.png'
+              alt='netlify'/>
+              </a>
+              <a className="link"
+              href='https://github.com/runcatha/All-I-Want_For_Christmas'>
+              <img
+              id='christmas-github'
+              src='https://i.imgur.com/RshgsOc.png?1'
+              alt='Github'/>
+                </a>
+                </div>
             </div>
             <div className='project' id='tech-care'>
               <img
@@ -54,7 +55,9 @@ export default function Projects() {
           alt='Github'/>
             </a>
             </div>
-            </div>
+          </div>
+        </div>
+        <div className='two-projects-pt-two'>
             <div className='project' id='wod-app'>
               <img
                 className="card-img"
@@ -98,7 +101,8 @@ export default function Projects() {
           id='wod-app-github'
           src='https://i.imgur.com/RshgsOc.png?1'
           alt='Github'/>
-            </a>
+              </a>
+              </div>
             </div>
             </div>
           </div>

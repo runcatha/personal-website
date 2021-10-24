@@ -5,7 +5,7 @@ const Footer = () =>
     <div className='github-linkedIn'>
       <a
             className="github"
-        href='https://github.com/runcatha'>
+        href='https://github.com/runcatha/personal-website'>
         <img
           id='github'
           src='https://i.imgur.com/RshgsOc.png'
