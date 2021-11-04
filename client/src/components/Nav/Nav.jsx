@@ -12,7 +12,7 @@ const Nav = (props) => {
       <a className="link" href="#projects">Projects</a>
       <a className="link" href="https://drive.google.com/file/d/1MHDD_8j3FSJeQWfyxnmNnz-pJ9SmmAN8/view?usp=sharing">Resume</a>
       <a className="link" href="#about">About Me</a>
-      <a className="link" href="#contact">Contact</a>
+      <a className="link" href="#contact">Contact Me</a>
     </>
   )
 
